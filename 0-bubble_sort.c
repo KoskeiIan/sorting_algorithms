@@ -5,7 +5,17 @@
  * @array: pointer to array
  * @size: size of the array
  *
- * Return: no return 
+ * Return: Nothing 
+ */
+
+#include "sort.h"
+
+/**
+ * bubble_sort - Sort an array of integers in ascending order using Bubble sort
+ * @array: pointer to array to be sorted
+ * @size: size of the array
+ *
+ * Return: no return value (void)
  */
 
 void bubble_sort(int *array, size_t size)
